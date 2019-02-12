@@ -9,7 +9,6 @@ import (
 
 func main() {
 	botToken := os.Getenv("BOT_OAUTH_ACCESS_TOKEN")
-	debug := os.Getenv("DEVELOPMENT") == "true"
-	slackClient := slack.CreateSlackClient(botToken, debug)
+	slackClient := slack.CreateSlackClient(botToken)
 	slack.RespondToEvents(slackClient)
 }

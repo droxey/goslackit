@@ -1,4 +1,6 @@
-module github.com/droxey/goslackit
+// +heroku goVersion go1.11
+
+module github.com/droxey/gopherology
 
 require (
 	github.com/gorilla/websocket v1.4.0 // indirect
