@@ -1,6 +1,6 @@
 // +heroku goVersion go1.11
 
-module github.com/droxey/gopherology
+module github.com/droxey/goslackit
 
 require (
 	github.com/droxey/goslackit v0.0.0-20190212191025-3f9dc7e7815b
