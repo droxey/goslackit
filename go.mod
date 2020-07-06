@@ -1,9 +1,10 @@
-// +heroku goVersion go1.11
+// +heroku goVersion go1.14
 
 module github.com/droxey/goslackit
 
+go 1.14
+
 require (
-	github.com/droxey/goslackit v0.0.0-20190212191025-3f9dc7e7815b
 	github.com/joho/godotenv v1.3.0
-	github.com/nlopes/slack v0.5.0
+	github.com/slack-go/slack v0.6.5
 )
